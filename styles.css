@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    font-size: 20px;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.image {
+    width: 45%;
+    text-align: center;
+}
+
+.image img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+.information {
+    width: 45%;
+    padding: 0 20px;
+}
+
+header {
+    text-align: center;
+}
+
+.contact-icons {
+    display: inline-flex; /* Chuyển sang hiển thị inline-flex để nằm cùng hàng */
+    align-items: center;
+}
+
+.contact-icons a {
+    color: black;
+    margin-left: 10px; /* Thêm khoảng cách giữa các biểu tượng */
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.contact-icons a:first-child {
+    margin-left: 0; /* Loại bỏ khoảng cách ở biểu tượng đầu tiên */
+}
