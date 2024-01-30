@@ -30,17 +30,18 @@ header {
 }
 
 .contact-icons {
-    display: inline-flex; /* Chuyển sang hiển thị inline-flex để nằm cùng hàng */
+    display: inline-flex; 
     align-items: center;
+    margin-top: 0;
 }
 
 .contact-icons a {
     color: black;
-    margin-left: 10px; /* Thêm khoảng cách giữa các biểu tượng */
+    margin-left: 10px; 
     font-size: 20px;
     text-decoration: none;
 }
 
 .contact-icons a:first-child {
-    margin-left: 0; /* Loại bỏ khoảng cách ở biểu tượng đầu tiên */
+    margin-left: 0;
 }
