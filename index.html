@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập thực hành</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Thi Trắc Nghiệm Demo</h1>
+        <form id="quiz-form">
+            <div id="user-info">
+                <label for="fullname">Họ và tên:</label>
+                <input type="text" id="fullname" required>
+                <label for="dob">Ngày tháng năm sinh:</label>
+                <input type="date" id="dob" required>
+                <label for="student-id">Mã sinh viên:</label>
+                <input type="text" id="student-id" required>
+                <label for="class">Lớp:</label>
+                <input type="text" id="class" required>
+                <button type="button" id="start-quiz">Bắt đầu bài kiểm tra</button>
+            </div>
+            <div class="questions" style="display: none;">
+                <!-- Câu hỏi sẽ được tạo ra bằng JavaScript -->
+            </div>
+            <button type="submit" style="display: none;">Submit</button>
+        </form>
+        <div id="result" style="display: none;">
+            <!-- Kết quả bài làm sẽ được hiển thị ở đây -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
